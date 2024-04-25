@@ -6,6 +6,7 @@ PHP Link Shortener is a simple link shortening service built with Laravel. It al
 
 1. [Setup & Installation](#setup--installation)
 2. [Functionality](#functionality)
+3. [Examples of usage](#examples-of-usage)
 
 ## Setup & Installation
 
@@ -84,6 +85,36 @@ The PHP Link Shortener provides the following functionality:
 - **Redirection**: Shortened URLs redirect users to the original URL when accessed. Appropriate HTTP status codes (301 Moved Permanently) are used for successful redirections, and handling of not-found cases (404 Not Found) is implemented.
 - **Database Storage**: Original URLs and their corresponding short codes are saved in the MySQL database. Additionally, the number of times each shortened URL is accessed is tracked for analytics purposes.
 
----
+## Examples of Usage
 
-This README provides detailed instructions for setting up, running, and using the PHP Link Shortener project. It covers installation steps, including database configuration and migrations, as well as a comprehensive overview of the functionality provided by the application. Feel free to adjust and expand it further based on your specific project requirements.
+Here are some examples of how to use the PHP Link Shortener:
+
+1. **Shortening a URL**:
+
+   ![Shorten URL](./README-img/1.jpg)
+
+   <pre>
+   Shorten URL form and shortened URL's list
+   </pre>
+
+2. **Accessing a Shortened URL**:
+
+   ![Access Shortened URL](./README-img/2.jpg)
+ 
+   <pre>
+   Clicking on short URL
+   </pre>
+    
+   ![Access Shortened URL](./README-img/3.jpg)
+ 
+   <pre>
+   Redirect is successful
+   </pre>
+ 
+   ![Access Shortened URL](./README-img/4.jpg)
+ 
+   <pre>
+   Visits counter also updated
+   </pre>
+
+---
