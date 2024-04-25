@@ -1,3 +1,7 @@
+Certainly! Here's the updated README.md with examples of usage and placeholders for screenshots:
+
+---
+
 # PHP Link Shortener
 
 PHP Link Shortener is a simple link shortening service built with Laravel. It allows users to shorten long URLs and provides a shorter link that redirects to the original URL.
@@ -6,7 +10,7 @@ PHP Link Shortener is a simple link shortening service built with Laravel. It al
 
 1. [Setup & Installation](#setup--installation)
 2. [Functionality](#functionality)
-3. [Examples of usage](#examples-of-usage)
+3. [Examples of Usage](#examples-of-usage)
 
 ## Setup & Installation
 
@@ -24,13 +28,13 @@ To run the PHP Link Shortener locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/php-link-shortener.git
+   git clone https://github.com/brostyslav-it/laravel-url-shortener
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd php-link-shortener
+   cd laravel-url-shortener
    ```
 
 3. Install PHP dependencies using Composer:
@@ -90,31 +94,17 @@ The PHP Link Shortener provides the following functionality:
 Here are some examples of how to use the PHP Link Shortener:
 
 1. **Shortening a URL**:
+   
+   ![Shorten URL](/path/to/shorten-url.png)
 
-   ![Shorten URL](./README-img/1.jpg)
-
-   <pre>
-   Shorten URL form and shortened URL's list
-   </pre>
+   *Figure 1: Shorten URL form*
 
 2. **Accessing a Shortened URL**:
+   
+   ![Access Shortened URL](/path/to/access-shortened-url.png)
 
-   ![Access Shortened URL](./README-img/2.jpg)
- 
-   <pre>
-   Clicking on short URL
-   </pre>
-    
-   ![Access Shortened URL](./README-img/3.jpg)
- 
-   <pre>
-   Redirect is successful
-   </pre>
- 
-   ![Access Shortened URL](./README-img/4.jpg)
- 
-   <pre>
-   Visits counter also updated
-   </pre>
+   *Figure 2: Accessing a shortened URL*
 
 ---
+
+This README provides detailed instructions for setting up, running, and using the PHP Link Shortener project. It also includes examples of usage with placeholders for screenshots. Feel free to replace the placeholders with actual screenshots of your project. Adjust and expand the README further based on your specific project requirements.
