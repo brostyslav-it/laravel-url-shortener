@@ -1,7 +1,3 @@
-Certainly! Here's the updated README.md with examples of usage and placeholders for screenshots:
-
----
-
 # PHP Link Shortener
 
 PHP Link Shortener is a simple link shortening service built with Laravel. It allows users to shorten long URLs and provides a shorter link that redirects to the original URL.
